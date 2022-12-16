@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754d49e5-c90d-4d7a-b0af-86d950faf9ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest/OlaMundo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest/OlaMundoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/UserJasonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,19 +60,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.OlaMundoTest.devaValidarBody">
-    <configuration name="OlaMundoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.UserJasonTest.devoFazerVerificacoesAvancadas">
+    <configuration name="UserJasonTest.deveRetornarErroUsuarioInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -84,29 +81,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.OlaMundoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OlaMundoTest.devaValidarBody" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meurestassured.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.OlaMundoTest" />
-      <option name="METHOD_NAME" value="devaValidarBody" />
+      <option name="MAIN_CLASS_NAME" value="rest.UserJasonTest" />
+      <option name="METHOD_NAME" value="deveRetornarErroUsuarioInexistente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OlaMundoTest.devoConhecerMatchersHancrest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserJasonTest.deveVerificarLista" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -115,14 +97,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.OlaMundoTest" />
-      <option name="METHOD_NAME" value="devoConhecerMatchersHancrest" />
+      <option name="MAIN_CLASS_NAME" value="rest.UserJasonTest" />
+      <option name="METHOD_NAME" value="deveVerificarLista" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OlaMundoTest.devoConhecerOutrasFormasRestAssured" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserJasonTest.deveVerificarListaRaiz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -131,14 +113,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.OlaMundoTest" />
-      <option name="METHOD_NAME" value="devoConhecerOutrasFormasRestAssured" />
+      <option name="MAIN_CLASS_NAME" value="rest.UserJasonTest" />
+      <option name="METHOD_NAME" value="deveVerificarListaRaiz" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OlaMundoTest.testOlaMundo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserJasonTest.deveVerificarSegundoNivel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -147,8 +129,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.OlaMundoTest" />
-      <option name="METHOD_NAME" value="testOlaMundo" />
+      <option name="MAIN_CLASS_NAME" value="rest.UserJasonTest" />
+      <option name="METHOD_NAME" value="deveVerificarSegundoNivel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserJasonTest.devoFazerVerificacoesAvancadas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meurestassured.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="MAIN_CLASS_NAME" value="rest.UserJasonTest" />
+      <option name="METHOD_NAME" value="devoFazerVerificacoesAvancadas" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OlaMundoTest.devaValidarBody" />
-        <item itemvalue="JUnit.OlaMundoTest.devoConhecerMatchersHancrest" />
-        <item itemvalue="JUnit.OlaMundoTest.devoConhecerOutrasFormasRestAssured" />
-        <item itemvalue="JUnit.OlaMundoTest" />
-        <item itemvalue="JUnit.OlaMundoTest.testOlaMundo" />
+        <item itemvalue="JUnit.UserJasonTest.devoFazerVerificacoesAvancadas" />
+        <item itemvalue="JUnit.UserJasonTest.deveVerificarListaRaiz" />
+        <item itemvalue="JUnit.UserJasonTest.deveRetornarErroUsuarioInexistente" />
+        <item itemvalue="JUnit.UserJasonTest.deveVerificarLista" />
+        <item itemvalue="JUnit.UserJasonTest.deveVerificarSegundoNivel" />
       </list>
     </recent_temporary>
   </component>
