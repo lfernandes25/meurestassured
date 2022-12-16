@@ -1,6 +1,11 @@
 package rest;
 
+import io.restassured.internal.path.xml.NodeImpl;
+import org.junit.Assert;
 import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.Objects;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
@@ -25,7 +30,7 @@ public class UserXMLTest {
     }
 
     @Test
-    public void devoTrabalharComXMLDois(){
+    public void devoTrabalharComXMLComRootPath(){
         given()
                 .when()
                 .get("http://restapi.wcaquino.me/usersXML/3")
@@ -43,7 +48,7 @@ public class UserXMLTest {
     }
 
     @Test
-    public void devoTrabalharComXMLTres(){
+    public void devoTrabalharComXMLComplementandoRootPath(){
         given()
                 .when()
                 .get("http://restapi.wcaquino.me/usersXML/3")
@@ -63,7 +68,7 @@ public class UserXMLTest {
     }
 
     @Test
-    public void devoTrabalharComXMLQuatro(){
+    public void devoTrabalharComXMLAdicionandoRootPathERemovendoRootPath(){
         given()
                 .when()
                 .get("http://restapi.wcaquino.me/usersXML/3")
@@ -83,5 +88,39 @@ public class UserXMLTest {
                 .detachRootPath("filhos")
                 .body("age",is("20"))
         ;
+    }
+
+    @Test
+    public void devoFazerPesquisarAvancadasComXML(){
+        given()
+                .when()
+                .get("http://restapi.wcaquino.me/usersXML")
+                .then()
+                .statusCode(200)
+                .body("users.user.size()", is(3))
+                .body("users.user.findAll{it.age.toInteger() <= 25}.size()", is(2))
+                .body("users.user.@id",hasItems("1","2","3"))
+                .body("users.user.find{it.age == 25}.name", is("Maria Joaquina"))
+                .body("users.user.findAll{it.name.toString().contains('n')}.name",hasItems("Maria Joaquina","Ana Julia"))
+                .body("users.user.salary.find{it != null}.toDouble()", is(1234.5678d))
+                .body("users.user.age.collect{it.toInteger() * 2}", hasItems(40,50,60))
+                .body("users.user.name.findAll{it.toString().startsWith('Maria')}.collect{it.toString().toUpperCase()}", is("MARIA JOAQUINA"))
+        ;
+    }
+
+    @Test
+    public void devoFazerPesquisarAvancadasComXMLEJava(){
+        ArrayList<NodeImpl> nomes =
+        given()
+                .when()
+                .get("http://restapi.wcaquino.me/usersXML")
+                .then()
+                .statusCode(200)
+                .extract().path("users.user.name.findAll{it.toString().contains('n')}")
+        ;
+
+        Assert.assertEquals(2,nomes.size());
+        Assert.assertEquals("Maria Joaquina".toUpperCase(),nomes.get(0).toString().toUpperCase());
+        Assert.assertTrue("ANA JULIA".equalsIgnoreCase(nomes.get(1).toString()));
     }
 }
