@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754d49e5-c90d-4d7a-b0af-86d950faf9ad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/rest/VerbosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/VerbosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +73,8 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.VerbosTest.naoDeveRemoverUsuarioInexistente">
-    <configuration name="VerbosTest.deveAlterarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.VerbosTest.deveDeserializarXMLAoSalvarUsuario">
+    <configuration name="VerbosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -82,13 +84,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
       <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="deveAlterarUsuario" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerbosTest.deveDeserializarObjetoAoSalvarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meurestassured.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
+      <option name="METHOD_NAME" value="deveDeserializarObjetoAoSalvarUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveRemoverUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveDeserializarXMLAoSalvarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -98,13 +115,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
       <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="deveRemoverUsuario" />
+      <option name="METHOD_NAME" value="deveDeserializarXMLAoSalvarUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.devoCostumizarUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveSalvarUsuarioUsandoObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +131,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
       <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="devoCostumizarUrl" />
+      <option name="METHOD_NAME" value="deveSalvarUsuarioUsandoObjeto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.devoCostumizarUrlParteDois" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveSalvarUsuarioViaXmlUsandoObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -130,23 +147,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
       <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="devoCostumizarUrlParteDois" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerbosTest.naoDeveRemoverUsuarioInexistente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meurestassured.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="naoDeveRemoverUsuarioInexistente" />
+      <option name="METHOD_NAME" value="deveSalvarUsuarioViaXmlUsandoObjeto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VerbosTest.naoDeveRemoverUsuarioInexistente" />
-        <item itemvalue="JUnit.VerbosTest.deveRemoverUsuario" />
-        <item itemvalue="JUnit.VerbosTest.devoCostumizarUrlParteDois" />
-        <item itemvalue="JUnit.VerbosTest.devoCostumizarUrl" />
-        <item itemvalue="JUnit.VerbosTest.deveAlterarUsuario" />
+        <item itemvalue="JUnit.VerbosTest.deveDeserializarXMLAoSalvarUsuario" />
+        <item itemvalue="JUnit.VerbosTest" />
+        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuarioViaXmlUsandoObjeto" />
+        <item itemvalue="JUnit.VerbosTest.deveDeserializarObjetoAoSalvarUsuario" />
+        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuarioUsandoObjeto" />
       </list>
     </recent_temporary>
   </component>
