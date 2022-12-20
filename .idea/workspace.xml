@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754d49e5-c90d-4d7a-b0af-86d950faf9ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/VerbosTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,22 +71,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.UserXMLTest.devoFazerPesquisarAvancadasComXMLEJava">
-    <configuration name="UserXMLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="meurestassured.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.UserXMLTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VerbosTest.deveSalvarUsuarioViaXml">
     <configuration name="UserXMLTest.devoFazerPesquisarAvancadasComXML" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
@@ -119,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserXMLTest.devoTrabalharComXMLQuatro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveSalvarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +113,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.UserXMLTest" />
-      <option name="METHOD_NAME" value="devoTrabalharComXMLQuatro" />
+      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
+      <option name="METHOD_NAME" value="deveSalvarUsuario" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserXMLTest.devoTrabalharComXMLTres" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="VerbosTest.deveSalvarUsuarioViaXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -144,8 +129,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.UserXMLTest" />
-      <option name="METHOD_NAME" value="devoTrabalharComXMLTres" />
+      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
+      <option name="METHOD_NAME" value="deveSalvarUsuarioViaXml" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VerbosTest.naoDeveSalvarUsuarioSemName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="meurestassured.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rest" />
+      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
+      <option name="METHOD_NAME" value="naoDeveSalvarUsuarioSemName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuarioViaXml" />
+        <item itemvalue="JUnit.VerbosTest.naoDeveSalvarUsuarioSemName" />
+        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuario" />
         <item itemvalue="JUnit.UserXMLTest.devoFazerPesquisarAvancadasComXMLEJava" />
         <item itemvalue="JUnit.UserXMLTest.devoFazerPesquisarAvancadasComXML" />
-        <item itemvalue="JUnit.UserXMLTest" />
-        <item itemvalue="JUnit.UserXMLTest.devoTrabalharComXMLQuatro" />
-        <item itemvalue="JUnit.UserXMLTest.devoTrabalharComXMLTres" />
       </list>
     </recent_temporary>
   </component>
