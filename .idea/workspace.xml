@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="754d49e5-c90d-4d7a-b0af-86d950faf9ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rest/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/AuthTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/EnviaDadosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rest/HTML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Capas_001_100.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/users.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rest/VerbosTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rest/VerbosTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,19 +66,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/leans/IdeaProjects/meurestassured/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "File.Encoding"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.VerbosTest.deveDeserializarXMLAoSalvarUsuario">
-    <configuration name="VerbosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leans\IdeaProjects\meurestassured\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\leans\IdeaProjects\meurestassured\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AuthTest">
+    <configuration name="AuthTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -83,13 +96,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
+      <option name="MAIN_CLASS_NAME" value="rest.AuthTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveDeserializarObjetoAoSalvarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTest.deveAcessarAplicacaoWeb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -98,14 +111,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="deveDeserializarObjetoAoSalvarUsuario" />
+      <option name="MAIN_CLASS_NAME" value="rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveAcessarAplicacaoWeb" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveDeserializarXMLAoSalvarUsuario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTest.deveFazerAutenticacaoBasicaChallenge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -114,14 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="deveDeserializarXMLAoSalvarUsuario" />
+      <option name="MAIN_CLASS_NAME" value="rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveFazerAutenticacaoBasicaChallenge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveSalvarUsuarioUsandoObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTest.deveFazerAutenticacaoComTokenJWT" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -130,14 +143,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="deveSalvarUsuarioUsandoObjeto" />
+      <option name="MAIN_CLASS_NAME" value="rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveFazerAutenticacaoComTokenJWT" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerbosTest.deveSalvarUsuarioViaXmlUsandoObjeto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthTest.deveObterClima" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="meurestassured.main" />
       <extension name="coverage">
         <pattern>
@@ -146,8 +159,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="rest" />
-      <option name="MAIN_CLASS_NAME" value="rest.VerbosTest" />
-      <option name="METHOD_NAME" value="deveSalvarUsuarioViaXmlUsandoObjeto" />
+      <option name="MAIN_CLASS_NAME" value="rest.AuthTest" />
+      <option name="METHOD_NAME" value="deveObterClima" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.VerbosTest.deveDeserializarXMLAoSalvarUsuario" />
-        <item itemvalue="JUnit.VerbosTest" />
-        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuarioViaXmlUsandoObjeto" />
-        <item itemvalue="JUnit.VerbosTest.deveDeserializarObjetoAoSalvarUsuario" />
-        <item itemvalue="JUnit.VerbosTest.deveSalvarUsuarioUsandoObjeto" />
+        <item itemvalue="JUnit.AuthTest" />
+        <item itemvalue="JUnit.AuthTest.deveObterClima" />
+        <item itemvalue="JUnit.AuthTest.deveAcessarAplicacaoWeb" />
+        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoComTokenJWT" />
+        <item itemvalue="JUnit.AuthTest.deveFazerAutenticacaoBasicaChallenge" />
       </list>
     </recent_temporary>
   </component>
